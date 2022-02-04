@@ -1,0 +1,41 @@
+.weekDay {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 33px;
+}
+
+.date {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.icon {
+  height: 100px;
+}
+
+.maxTemp {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 33px;
+}
+
+.minTemp {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 33px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.condition {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.4);
+}

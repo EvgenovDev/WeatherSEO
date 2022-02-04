@@ -1,0 +1,51 @@
+.wrap {
+  align-self: end;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 2fr;
+  align-items: center;
+}
+
+.temp {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 133px;
+}
+
+.other {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.value {
+  color: white;
+}
+
+.img {
+  width: 82px;
+}
+
+@media (max-width: 800px) {
+  .wrap {
+    align-self: start;
+  }
+  .other {
+    display: none;
+  }
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .img {
+    display: none;
+  }
+  .temp {
+    justify-self: center;
+  }
+}
